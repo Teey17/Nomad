@@ -1,0 +1,66 @@
+.root
+{
+    -fx-background-color: linear-gradient(to bottom, #203A43, #2C5364);
+
+    -fx-font-family: Arial;
+    -fx-border-color:  rgba(0, 0,  0,  .80);
+    -fx-border-radius: 8;
+    -fx-font-size:  20px;
+    -fx-text-fill:#ffffff;
+}
+.hyperlink
+{
+    -fx-text-fill:#ffffff;
+    -fx-underline: true;
+    -fx-text-alignment: center ;
+}
+#grid-pane
+{
+
+   -fx-alignment: center;
+   -fx-height: 500px;
+   -fx-border-style: solid inside;
+   -fx-border-width: 5;
+ -fx-border-radius: 50px;
+ -fx-border-color: #ffffff;
+}
+.label
+{
+     -fx-font-size:  20px;
+     -fx-text-fill:#ffffff;
+}
+.radio-button
+{
+        -fx-font-size:  15px;
+         -fx-text-fill:#ffffff;
+}
+.button
+{
+    -fx-background-color:#263238;
+    -fx-font-size:  20px;
+    -fx-background-radius: 10;
+        -fx-text-fill:#ffffff;
+    -fx-pref-width: 170px;
+}
+
+.button:hover
+{
+	-fx-background-color: #3a6978;
+}
+
+#nomadlabel
+{
+    -fx-font-size:  35px;
+    -fx-font-weight: bold;
+     -fx-text-fill:#ffffff;
+}
+#reglabel
+{
+    -fx-font-size:  35px;
+    -fx-font-weight: bold;
+}
+#renewlabel
+{
+    -fx-font-size:  25px;
+    -fx-font-weight: bold;
+}

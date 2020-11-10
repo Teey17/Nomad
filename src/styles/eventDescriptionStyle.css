@@ -1,0 +1,150 @@
+.root
+{
+    -fx-background-color: linear-gradient(to bottom, #203A43, #2C5364);
+    -fx-font-family: Arial;
+    -fx-border-color:  rgba(0, 0,  0,  .80);
+    -fx-border-radius: 8;
+    -fx-font-size:  15px;
+}
+.label
+{
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+   -fx-font-size: 18px;
+
+}
+.hyperlink
+{
+    -fx-text-fill:#ffffff;
+    -fx-underline: true;
+    -fx-border-color: transparent;
+    -fx-text-alignment: center ;
+}
+#grid-pane
+{
+   -fx-alignment: center;
+   -fx-height: 50px;
+   -fx-border-style: solid inside;
+   -fx-border-width: 2;
+   -fx-border-radius: 5px;
+   -fx-border-color: #ffffff;
+}
+.button
+{
+	-fx-background-color:#1a0000;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 30;
+	-fx-font-weight: bold;
+	-fx-pref-height: 28px;
+	-fx-pref-width: 200px;
+}
+.button:hover
+{
+	-fx-background-color: #2C5364;
+}
+#allAvailableExcursion
+{
+    -fx-font-size:  25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+#eventDescription
+{
+    -fx-fill: #ffffff;
+}
+
+.text
+{
+    -fx-fill: #ffffff;
+}
+
+#event
+{
+    -fx-fill: #ffffff;
+    -fx-font-size:  18px;
+    -fx-font-weight: bold;
+}
+
+#eventLabels
+{
+        -fx-fill: #ffffff;
+        -fx-font-size:  12px;
+        -fx-font-weight: bold;
+}
+
+#grid-pane
+{
+
+   -fx-alignment: center;
+   -fx-height: 250px;
+   -fx-border-style: solid inside;
+   -fx-border-width: 5px;
+   -fx-padding: 50px;
+ -fx-border-radius: 50px;
+ -fx-border-color: #ffffff;
+}
+
+#child-pane
+{
+
+   -fx-alignment: center;
+   -fx-height: 250px;
+   -fx-border-style: solid inside;
+   -fx-border-width: 5px;
+   -fx-padding: 50px;
+ -fx-border-radius: 50px;
+ -fx-border-color: #ffffff;
+}
+
+#create
+{
+      -fx-fill: #ffffff;
+      -fx-font-size:  14px;
+      -fx-font-weight: normal;
+}
+#description
+{
+        -fx-fill: #000000;
+        -fx-font-size:  16px;
+         -fx-font-weight: normal;
+}
+.menu
+{ -fx-padding: 10 5 10 5;
+}
+
+#grid-pane
+{
+
+   -fx-alignment: center;
+   -fx-height: 50px;
+   -fx-border-style: solid inside;
+   -fx-border-width: 3;
+ -fx-border-radius: 10px;
+ -fx-border-color: #203A43;
+}
+
+
+.list-view .list-cell:even
+{
+-fx-background-color:  #000066;
+}
+.list-view .list-cell:odd
+{
+-fx-background-color: #000080;
+}
+
+.list-view .list-cell {
+  -fx-font-family: 'Tahoma';
+  -fx-background-color: #203A43;
+ -fx-alignment: center;
+ -fx-text-fill: white;
+ -fx-font-size: 16px;
+ -fx-font-weight: bold;
+}
+.list-view {
+	 -fx-text-fill: white;
+   -fx-alignment: center;
+  -fx-background-color: #203A43;
+
+}
